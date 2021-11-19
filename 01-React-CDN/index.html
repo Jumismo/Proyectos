@@ -15,13 +15,15 @@
 <body>
     <div id="root"></div>
 
-    <script>
+    <script type="text/babel">
         ReactDOM.render(
-            React.createElement("ol", null,
-                React.createElement("li", null, "Uva"),
-                React.createElement("li", null, "Limon"),
-                React.createElement("li", null, "Mango")
-                ),
+            <div>
+                <ul>
+                    <li>Manzana</li>
+                    <li>Uva</li>
+                    <li>Mango</li>
+                </ul>
+            </div>,
             document.getElementById("root")
         );
     </script>
