@@ -17,17 +17,23 @@
 
     <script type="text/babel"> 
 
-        const Saludo = () => {
-            return (
-                <ol>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ol>
-            )
-        }
+        const Interpolar = () => {
+            
+            const [numero, setNumero] = React.useState(0);
 
-        ReactDOM.render(<Saludo />, document.getElementById("root"));
+            setInterval(() => {
+                setNumero(numero + 1);
+            }, 1500);
+
+            return (
+                <div>
+                    <h1>Fecha: {  }</h1>
+                    <hr />
+                </div>
+                );
+        };
+
+        ReactDOM.render(<Interpolar />, document.getElementById("root"));
     </script>
 </body>
 </html>
