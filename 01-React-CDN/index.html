@@ -15,22 +15,17 @@
 <body>
     <div id="root"></div>
 
-    <script type="text/babel">
+    <script type="text/babel"> 
 
-    class Saludo extends React.Component{
-
-        render() {
-            return(
-                <ul>
+        const Saludo = () => {
+            return (
+                <ol>
                     <li></li>
                     <li></li>
                     <li></li>
-                </ul>
+                </ol>
             )
         }
-
-    } 
-
 
         ReactDOM.render(<Saludo />, document.getElementById("root"));
     </script>
