@@ -16,16 +16,23 @@
     <div id="root"></div>
 
     <script type="text/babel">
-        ReactDOM.render(
-            <div>
+
+    class Saludo extends React.Component{
+
+        render() {
+            return(
                 <ul>
-                    <li>Manzana</li>
-                    <li>Uva</li>
-                    <li>Mango</li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
                 </ul>
-            </div>,
-            document.getElementById("root")
-        );
+            )
+        }
+
+    } 
+
+
+        ReactDOM.render(<Saludo />, document.getElementById("root"));
     </script>
 </body>
 </html>
