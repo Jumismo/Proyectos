@@ -1,6 +1,6 @@
-import Contador from "./components/Contador";
+import Cards from "./components/Cards"
 
 const App = () => {
-  return <Contador />
+  return <Cards />
 }
 export default App;
